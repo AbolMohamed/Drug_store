@@ -1,0 +1,12 @@
+[09-Mar-2026 10:05:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'pharmacy' in C:\xampp\htdocs\Drug_store\dbcon.php:6
+Stack trace:
+#0 C:\xampp\htdocs\Drug_store\dbcon.php(6): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'pharmacy')
+#1 C:\xampp\htdocs\Drug_store\main_page\login.php(12): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Drug_store\dbcon.php on line 6
+[09-Mar-2026 10:05:36 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'pharmacy' in C:\xampp\htdocs\Drug_store\dbcon.php:6
+Stack trace:
+#0 C:\xampp\htdocs\Drug_store\dbcon.php(6): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'pharmacy')
+#1 C:\xampp\htdocs\Drug_store\main_page\login.php(12): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Drug_store\dbcon.php on line 6
